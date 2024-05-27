@@ -1,0 +1,1 @@
+{"version":3,"names":["HttpRequest","httpRequest","me","res","get"],"sourceRoot":"../../../src","sources":["apis/auth.ts"],"mappings":"AAAA,SAASA,WAAW,QAAQ,UAAU;AAEtC,MAAMC,WAAW,GAAG,IAAID,WAAW,CAAC,CAAC;AAErC,OAAO,MAAME,EAAE,GAAG,MAAAA,CAAA,KAAY;EAC5B,MAAMC,GAAG,GAAG,MAAMF,WAAW,CAACG,GAAG,CAAC,UAAU,CAAC;EAC7C,OAAOD,GAAG;AACZ,CAAC","ignoreList":[]}

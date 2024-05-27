@@ -1,0 +1,47 @@
+import { type IUser } from "@goodtechsoft/xs-user-native";
+import type { IGroup, ICategory } from "../interfaces";
+import type { ScopedMutator } from "swr/_internal";
+import type { IImage } from "@goodtechsoft/xs-core-native";
+export declare class Group implements IGroup {
+    _id: string;
+    name: string;
+    privacy: string;
+    coverImage: IImage;
+    category: ICategory;
+    description: string;
+    isDirectPost: boolean;
+    members: IUser[];
+    membersCount: number;
+    postCount: number;
+    createdAt: string;
+    rule: string;
+    isJoined: boolean;
+    followers: IUser[];
+    isPending: boolean;
+    isInvited: boolean;
+    isAdmin: boolean;
+    isGroupOwner: boolean;
+    isAdminInvited: boolean;
+    isNew?: boolean;
+    pendingMembersCount?: number;
+    constructor({ _id, name, privacy, coverImage, category, description, isDirectPost, members, membersCount, postCount, createdAt, rule, isInvited, isJoined, isPending, followers, isAdmin, isGroupOwner, isNew, isAdminInvited, pendingMembersCount, }: Group);
+    setCover(mutate: ScopedMutator, data: IGroup): this;
+    setPrivacy(mutate: ScopedMutator, data: any): this;
+    setPostType(mutate: ScopedMutator, data: any): this;
+    setRule(mutate: ScopedMutator, data: IGroup): this;
+    setDescription(mutate: ScopedMutator, data: IGroup): this;
+    setName(mutate: ScopedMutator, data: IGroup): this;
+    setJoin(mutate: ScopedMutator, isJoin: boolean): this;
+    setMinusCount(mutate: ScopedMutator): this;
+    setGroupAdmin(mutate: ScopedMutator): this;
+    setDeclineAdmin(mutate: ScopedMutator): this;
+    setSignCount(mutate: ScopedMutator): this;
+    setPending(mutate: ScopedMutator, isPending: boolean): this;
+    setInvited(mutate: ScopedMutator, isInvited: boolean): this;
+    setAdminInvited(mutate: ScopedMutator, id: string): this;
+    setAdminInvitedCancel(mutate: ScopedMutator, id: string): this;
+    setNewGroup(mutate: ScopedMutator): this;
+    setMinusPendingCount(mutate: ScopedMutator): this;
+    static fromJson(json: IGroup): Group;
+}
+//# sourceMappingURL=group.d.ts.map

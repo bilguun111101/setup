@@ -1,0 +1,1 @@
+{"version":3,"file":"form-result.d.ts","sourceRoot":"","sources":["../../../../../src/components/layout/form-result.tsx"],"names":[],"mappings":"AACA,OAAO,KAAe,MAAM,OAAO,CAAC;AAQpC,QAAA,MAAM,UAAU,+DAKX;IACD,KAAK,EAAE,MAAM,CAAC;IACd,WAAW,CAAC,EAAE,MAAM,GAAG,IAAI,CAAC;IAC5B,OAAO,CAAC,EAAE,MAAM,IAAI,CAAC;CACtB,uBAeF,CAAC;AAIF,OAAO,EAAE,UAAU,EAAE,CAAC"}

@@ -1,0 +1,1 @@
+{"version":3,"file":"post.d.ts","sourceRoot":"","sources":["../../../../../src/components/tab-list/post.tsx"],"names":[],"mappings":"AAAA,OAAO,KAA8C,MAAM,OAAO,CAAC;AA2BnE,OAAO,EAAE,KAAK,MAAM,EAAE,MAAM,kBAAkB,CAAC;AAI/C,KAAK,KAAK,GAAG;IACX,OAAO,EAAE,MAAM,CAAC;IAChB,YAAY,EAAE,OAAO,CAAC;CACvB,CAAC;AAEF,QAAA,MAAM,aAAa,oCAAgB,KAAK,8BAiMtC,CAAC;AA8FH,OAAO,EAAE,aAAa,EAAE,CAAC"}

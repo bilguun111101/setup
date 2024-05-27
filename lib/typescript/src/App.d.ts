@@ -1,0 +1,8 @@
+import React from "react";
+import { HttpRequest as BaseHttpRequest } from "@goodtechsoft/xs-core-native";
+export declare class HttpRequest extends BaseHttpRequest {
+    uri: string;
+}
+declare const App: () => React.JSX.Element;
+export default App;
+//# sourceMappingURL=App.d.ts.map

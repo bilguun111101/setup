@@ -1,0 +1,1 @@
+{"version":3,"names":["AuthApi","UserApi","MediaApi","PostApi","GroupApi"],"sourceRoot":"../../../src","sources":["apis/index.ts"],"mappings":"AAAA,OAAO,KAAKA,OAAO,MAAM,QAAQ;AACjC,OAAO,KAAKC,OAAO,MAAM,QAAQ;AACjC,OAAO,KAAKC,QAAQ,MAAM,SAAS;AACnC,OAAO,KAAKC,OAAO,MAAM,QAAQ;AACjC,OAAO,KAAKC,QAAQ,MAAM,SAAS;AAEnC,SAASJ,OAAO,EAAEC,OAAO,EAAEC,QAAQ,EAAEC,OAAO,EAAEC,QAAQ","ignoreList":[]}

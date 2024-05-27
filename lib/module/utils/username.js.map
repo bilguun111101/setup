@@ -1,0 +1,1 @@
+{"version":3,"names":["username","user","nickname","lastName","firstName"],"sourceRoot":"../../../src","sources":["utils/username.ts"],"mappings":"AAEA,OAAO,MAAMA,QAAQ,GAAIC,IAAW,IAAK;EACvC,IAAIA,IAAI,CAACC,QAAQ,EAAE;IACjB,OAAOD,IAAI,CAACC,QAAQ;EACtB,CAAC,MAAM;IACL,OAAQ,GAAED,IAAI,CAACE,QAAS,IAAGF,IAAI,CAACG,SAAU,EAAC;EAC7C;AACF,CAAC","ignoreList":[]}

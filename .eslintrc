@@ -1,0 +1,25 @@
+{
+  "root": true,
+  "extends": "@react-native-community",
+  "rules": {
+    "react-native/split-platform-components": "off",
+    "prettier/prettier": 1,
+    "quotes": ["error", "double"],
+    "semi": ["error", "always"],
+    "camelcase": ["error", { "properties": "always" }],
+    "react-native/no-unused-styles": 2,
+    "react-native/no-inline-styles": 0,
+    "react-native/no-color-literals": 0,
+    "react-native/no-raw-text": 2,
+    "react-native/no-single-element-style-arrays": 2,
+    // "react/jsx-indent": [
+    //   2,
+    //   2,
+    //   { "checkAttributes": true, "indentLogicalExpressions": true }
+    // ],
+    "react-hooks/exhaustive-deps": "error",
+    "no-unused-vars": "off",
+    "@typescript-eslint/no-unused-vars": "error",
+    "@typescript-eslint/no-shadow": "off"
+  }
+}
